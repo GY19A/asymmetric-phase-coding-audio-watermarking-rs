@@ -1,0 +1,24 @@
+Test media
+==========
+
+The three clips in this directory are 10-second excerpts from the LibriSpeech
+ASR corpus, test-clean subset:
+
+  V. Panayotov, G. Chen, D. Povey, S. Khudanpur. "LibriSpeech: an ASR corpus
+  based on public domain audio books." ICASSP 2015.
+  https://www.openslr.org/12/
+
+LibriSpeech is distributed under the Creative Commons Attribution 4.0
+International license (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+The underlying recordings are LibriVox public-domain audiobooks.
+
+Changes: each utterance was cut or padded to 10.000 s, resampled to 44100 Hz,
+mono, and stored as 16-bit PCM WAV. The files are unchanged copies of
+
+  file                                     speaker-chapter-utterance
+  0000_librispeech_5639-40744-0030.wav     5639-40744-0030
+  0001_librispeech_8555-284447-0010.wav    8555-284447-0010
+  0002_librispeech_3570-5695-0012.wav      3570-5695-0012
+dfd2a679eec29b23b6823bcf03b825f8ebe7585439e71c0952f086669f51811c  tests/media/0000_librispeech_5639-40744-0030.wav
+68ae814ef20a571b37843bd5501f5bdf1b25da80f5d64bb8c9afc9cac9adc219  tests/media/0001_librispeech_8555-284447-0010.wav
+b0576f320fb53c3ae34805eefcf45a56e48dbe33274316f88beeb2e5ff0d825f  tests/media/0002_librispeech_3570-5695-0012.wav

@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+members = ["crates/apcaw", "crates/apcaw-cli"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "BSD-2-Clause"
+authors = ["Guang Yang <guangyang19@ucla.edu>"]
+rust-version = "1.80"
+repository = "https://github.com/GY19A/asymmetric-phase-coding-audio-watermarking-rs"
+homepage = "https://gy19a.github.io/asymmetric-phase-coding-audio-watermarking-js/"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+thiserror = "2"
+rayon = "1"
+
+[profile.release]
+debug = 1
+codegen-units = 4
+
+[profile.test]
+opt-level = 2

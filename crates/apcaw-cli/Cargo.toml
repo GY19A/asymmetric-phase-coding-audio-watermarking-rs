@@ -1,0 +1,30 @@
+[package]
+name = "apcaw-cli"
+description = "ffmpeg-style command-line tool for Asymmetric Phase Coding Audio Watermarking (apcaw-v1)"
+repository = "https://github.com/GY19A/asymmetric-phase-coding-audio-watermarking-rs"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "apcaw"
+path = "src/main.rs"
+
+[features]
+
+[dependencies]
+apcaw = { path = "../apcaw" }
+clap = { version = "4", features = ["derive", "env", "wrap_help"] }
+ctrlc = "3"
+rayon.workspace = true
+serde.workspace = true
+# preserve_order: JSON reports keep the key order of the Python CLI
+serde_json = { workspace = true, features = ["preserve_order"] }
+sha2 = "0.10"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
+serde_json.workspace = true

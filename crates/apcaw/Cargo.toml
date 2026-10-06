@@ -1,0 +1,48 @@
+[package]
+name = "apcaw"
+description = "Asymmetric Phase Coding Audio Watermarking (format apcaw-v1): sign audio with an Ed25519 key in the STFT phase and magnitude spectrum, verify with the public key alone"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+keywords = ["watermarking", "ed25519", "audio", "provenance"]
+categories = ["cryptography", "multimedia::audio"]
+
+[lib]
+crate-type = ["rlib", "cdylib", "staticlib"]
+
+[features]
+default = ["wav", "parallel"]
+# WAV file helpers (hound); the core itself does no I/O.
+wav = ["dep:hound"]
+# Data parallelism (rayon) for the STFT, the length search and the resync scan.
+parallel = ["dep:rayon"]
+
+[dependencies]
+ed25519-dalek = { version = "2", default-features = false, features = ["std", "rand_core", "zeroize", "fast"] }
+rand_core = { version = "0.6", features = ["getrandom"] }
+sha2 = "0.10"
+realfft = "3"
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+hound = { version = "3.5", optional = true }
+rayon = { workspace = true, optional = true }
+
+# The vector, inspect and resync tests read WAV files through the `wav` helpers.
+[[test]]
+name = "vectors"
+required-features = ["wav"]
+
+[[test]]
+name = "inspect_segment"
+required-features = ["wav"]
+
+[[test]]
+name = "resync"
+required-features = ["wav"]
+
+[dev-dependencies]
+proptest = "1"
+hound = "3.5"

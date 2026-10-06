@@ -1,0 +1,4 @@
+# Resolve dependency versions that still build with the declared MSRV
+# (rust-version = 1.80) when a newer release would require a newer compiler.
+[resolver]
+incompatible-rust-versions = "fallback"

@@ -1,0 +1,363 @@
+{
+ "generator": "apcaw (Python) inspect --json",
+ "public_key_hex": "03a107bff3ce10be1d70dd18e74bc09967e4d6309ba50d5f1ddc8664125531b8",
+ "cases": [
+  {
+   "legacy": false,
+   "report": {
+    "file": "clip_A.wav",
+    "samples": 441000,
+    "frames": 215,
+    "seed": 1415792460,
+    "profiles": {
+     "wb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1475223816,
+       "stream_bits": 6240,
+       "mean_abs_soft": 0.7377401711986945,
+       "mean_abs_soft_capacity": 0.7377401711986945,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 3120,
+       "header_length": 524800,
+       "stream_bits": 3120,
+       "mean_abs_soft": 0.774494257238164,
+       "mean_abs_soft_capacity": 0.774494257238164,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1475223816,
+       "stream_bits": 6240,
+       "mean_abs_soft": 0.7377401711986945,
+       "mean_abs_soft_capacity": 0.7377401711986945,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 1976,
+       "header_length": 1572864,
+       "stream_bits": 1976,
+       "mean_abs_soft": 0.736623308598391,
+       "mean_abs_soft_capacity": 0.736623308598391,
+       "erased": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "legacy": false,
+   "report": {
+    "file": "clip_A_signed_v1.wav",
+    "samples": 441000,
+    "frames": 215,
+    "seed": 1415792460,
+    "profiles": {
+     "wb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1160,
+       "stream_bits": 1256,
+       "mean_abs_soft": 0.9985803410439175,
+       "mean_abs_soft_capacity": 0.777786380024462,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 3120,
+       "header_length": 1160,
+       "stream_bits": 2416,
+       "mean_abs_soft": 0.9948439767735197,
+       "mean_abs_soft_capacity": 0.9444991797564599,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1160,
+       "stream_bits": 1256,
+       "mean_abs_soft": 0.9985803410439175,
+       "mean_abs_soft_capacity": 0.777786380024462,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 1976,
+       "header_length": 1048608,
+       "stream_bits": 1976,
+       "mean_abs_soft": 0.8212892268480556,
+       "mean_abs_soft_capacity": 0.8212892268480556,
+       "erased": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "legacy": true,
+   "report": {
+    "file": "clip_A_signed_legacy.wav",
+    "samples": 441000,
+    "frames": 215,
+    "seed": 42,
+    "profiles": {
+     "wb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1160,
+       "stream_bits": 1256,
+       "mean_abs_soft": 0.9989878659634124,
+       "mean_abs_soft_capacity": 0.777060804879979,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 3120,
+       "header_length": 1160,
+       "stream_bits": 2416,
+       "mean_abs_soft": 0.9953506813871016,
+       "mean_abs_soft_capacity": 0.9450988011668734,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1160,
+       "stream_bits": 1256,
+       "mean_abs_soft": 0.9989878659634124,
+       "mean_abs_soft_capacity": 0.777060804879979,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 1976,
+       "header_length": 135536640,
+       "stream_bits": 1976,
+       "mean_abs_soft": 0.820964879481848,
+       "mean_abs_soft_capacity": 0.820964879481848,
+       "erased": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "legacy": false,
+   "report": {
+    "file": "clip_A_signed_legacy.wav",
+    "samples": 441000,
+    "frames": 215,
+    "seed": 1415792460,
+    "profiles": {
+     "wb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1074532640,
+       "stream_bits": 6240,
+       "mean_abs_soft": 0.777060804879979,
+       "mean_abs_soft_capacity": 0.777060804879979,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 3120,
+       "header_length": 403702016,
+       "stream_bits": 3120,
+       "mean_abs_soft": 0.9450988011668734,
+       "mean_abs_soft_capacity": 0.9450988011668734,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1074532640,
+       "stream_bits": 6240,
+       "mean_abs_soft": 0.777060804879979,
+       "mean_abs_soft_capacity": 0.777060804879979,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 1976,
+       "header_length": 303562880,
+       "stream_bits": 1976,
+       "mean_abs_soft": 0.820964879481848,
+       "mean_abs_soft_capacity": 0.820964879481848,
+       "erased": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "legacy": false,
+   "report": {
+    "file": "clip_A_signed_v1_mp3.wav",
+    "samples": 441000,
+    "frames": 215,
+    "seed": 1415792460,
+    "profiles": {
+     "wb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1160,
+       "stream_bits": 1256,
+       "mean_abs_soft": 0.9893133262962142,
+       "mean_abs_soft_capacity": 0.7750194163808263,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 3120,
+       "header_length": 1160,
+       "stream_bits": 2416,
+       "mean_abs_soft": 0.977298471201003,
+       "mean_abs_soft_capacity": 0.9306655655949685,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 26,
+      "frames": 215,
+      "phase": {
+       "capacity": 6240,
+       "header_length": 1160,
+       "stream_bits": 1256,
+       "mean_abs_soft": 0.9893133262962142,
+       "mean_abs_soft_capacity": 0.7750194163808263,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 1976,
+       "header_length": 32,
+       "stream_bits": 1976,
+       "mean_abs_soft": 0.8156591810191858,
+       "mean_abs_soft_capacity": 0.8156591810191858,
+       "erased": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "legacy": false,
+   "report": {
+    "file": "short_3g.wav",
+    "samples": 50000,
+    "frames": 24,
+    "seed": 1415792460,
+    "profiles": {
+     "wb": {
+      "groups": 3,
+      "frames": 24,
+      "phase": {
+       "capacity": 720,
+       "header_length": 1475223816,
+       "stream_bits": 720,
+       "mean_abs_soft": 0.8085110542333656,
+       "mean_abs_soft_capacity": 0.8085110542333656,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 360,
+       "header_length": 524800,
+       "stream_bits": 360,
+       "mean_abs_soft": 0.7521883748665492,
+       "mean_abs_soft_capacity": 0.7521883748665492,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 3,
+      "frames": 24,
+      "phase": {
+       "capacity": 720,
+       "header_length": 1475223816,
+       "stream_bits": 720,
+       "mean_abs_soft": 0.8085110542333656,
+       "mean_abs_soft_capacity": 0.8085110542333656,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 228,
+       "header_length": 1572864,
+       "stream_bits": 228,
+       "mean_abs_soft": 0.7034474881740608,
+       "mean_abs_soft_capacity": 0.7034474881740608,
+       "erased": 0
+      }
+     }
+    }
+   }
+  },
+  {
+   "legacy": false,
+   "report": {
+    "file": "short_0g.wav",
+    "samples": 10000,
+    "frames": 4,
+    "seed": 1415792460,
+    "profiles": {
+     "wb": {
+      "groups": 0,
+      "frames": 4,
+      "phase": {
+       "capacity": 0,
+       "header_length": null,
+       "stream_bits": 0,
+       "mean_abs_soft": null,
+       "mean_abs_soft_capacity": null,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 0,
+       "header_length": null,
+       "stream_bits": 0,
+       "mean_abs_soft": null,
+       "mean_abs_soft_capacity": null,
+       "erased": 0
+      }
+     },
+     "nb": {
+      "groups": 0,
+      "frames": 4,
+      "phase": {
+       "capacity": 0,
+       "header_length": null,
+       "stream_bits": 0,
+       "mean_abs_soft": null,
+       "mean_abs_soft_capacity": null,
+       "erased": 0
+      },
+      "magnitude": {
+       "capacity": 0,
+       "header_length": null,
+       "stream_bits": 0,
+       "mean_abs_soft": null,
+       "mean_abs_soft_capacity": null,
+       "erased": 0
+      }
+     }
+    }
+   }
+  }
+ ]
+}
